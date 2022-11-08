@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dog&Cat - Main page</title>
+    <link rel="stylesheet" href="/CSS/header.css">
+    <link rel="stylesheet" href="/CSS/main-page.css">
+    <script src="/JavaScript/main.js"></script>
+</head>
+<body>
+    <div class="header">
+        <a class="main-page-a" href="main.html"><h1 class="main-page-h1">Main</h1></a>
+        <a class="dog-or-cat" href="dogOrCat.html"><h1 class="dog-or-cat-h1">Dog or Cat</h1></a>
+        <a class="about-us" href="aboutUs.html"><h1 class="about-us-h1">About us</h1></a>
+    </div>
+
+    <div>
+        <br>
+        <h1 class="main-page-header">They are looking for home</h1>
+        <div class="row">
+            <!--------------------------------------------AMUR----------------------------------------------------------------->
+            <div class="column container-home-page">
+                <img alt="loading..." src=/images/amur.png style="width:100%"
+                     onclick="openModal('myModal1');currentSlide(1, 1)"
+                     class="hover-shadow cursor">
+                <div class="overlay-home-page">
+                    <div class="text">Amur</div>
+                </div>
+            </div>
+
+            <div id="myModal1" class="modal">
+                <span class="close" onclick="closeModal('myModal1')">&times;</span>
+                <div class="modal-content">
+                    <div class="mySlides amur-dog">
+                        <div class="numbertext">1/4</div>
+                        <img alt="loading..." src=/images/amur.png style="width:100%">
+                    </div>
+
+                    <div class="mySlides amur-dog">
+                        <div class="numbertext">2/4</div>
+                        <img alt="loading..." src=/images/amur2.jpeg style="width:100%">
+                    </div>
+
+                    <div class="mySlides amur-dog">
+                        <div class="numbertext">3/4</div>
+                        <img alt="loading..." src=/images/amur3.jpeg style="width:100%">
+                    </div>
+
+                    <div class="mySlides amur-dog">
+                        <div class="numbertext">4/4</div>
+                        <img alt="loading..." src=/images/amur4.jpeg style="width:100%">
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+                </div>
+            </div>
+
+            <!--------------------------------------------IZABELLA----------------------------------------------------------------->
+            <div class="column container-home-page">
+                <img alt="loading..." src=/images/izabella.png style="width:100%"
+                     onclick="openModal('myModal2');currentSlide(1, 2)"
+                     class="hover-shadow cursor">
+                <div class="overlay-home-page">
+                    <div class="text">Izabella</div>
+                </div>
+            </div>
+
+            <div id="myModal2" class="modal">
+                <span class="close" onclick="closeModal('myModal2')">&times;</span>
+                <div class="modal-content">
+                    <div class="mySlides izabella-cat">
+                        <div class="numbertext">1/4</div>
+                        <img alt="loading..." src=/images/izabella.png style="width:100%">
+                    </div>
+
+                    <div class="mySlides izabella-cat">
+                        <div class="numbertext">2/4</div>
+                        <img alt="loading..." src=/images/izabella2.jpeg style="width:100%">
+                    </div>
+
+                    <div class="mySlides izabella-cat">
+                        <div class="numbertext">3/4</div>
+                        <img alt="loading..." src=/images/izabella3.jpeg style="width:100%">
+                    </div>
+
+                    <div class="mySlides izabella-cat">
+                        <div class="numbertext">4/4</div>
+                        <img alt="loading..." src=/images/izabella4.jpeg style="width:100%">
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+                </div>
+            </div>
+
+
+            <!--------------------------------------------PANAMKA----------------------------------------------------------------->
+            <div class="column container-home-page">
+                <img alt="loading..." src=/images/panamka.jpeg style="width:100%"
+                     onclick="openModal('myModal3');currentSlide(1, 3)"
+                     class="hover-shadow cursor">
+                <div class="overlay-home-page">
+                    <div class="text">Panamka</div>
+                </div>
+            </div>
+
+            <div id="myModal3" class="modal">
+                <span class="close" onclick="closeModal('myModal3')">&times;</span>
+                <div class="modal-content">
+                    <div class="mySlides panamka-cat">
+                        <div class="numbertext">1/3</div>
+                        <img alt="loading..." src=/images/panamka.jpeg style="width:100%">
+                    </div>
+
+                    <div class="mySlides panamka-cat">
+                        <div class="numbertext">2/3</div>
+                        <img alt="loading..." src=/images/panamka2.png style="width:100%">
+                    </div>
+
+                    <div class="mySlides panamka-cat">
+                        <div class="numbertext">3/3</div>
+                        <img alt="loading..." src=/images/panamka3.jpeg style="width:100%">
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
+                </div>
+            </div>
+
+            <!--------------------------------------------ZARA----------------------------------------------------------------->
+            <div class="column container-home-page">
+                <img alt="loading..." src=/images/zara.jpeg style="width:100%"
+                     onclick="openModal('myModal4');currentSlide(1, 4)"
+                     class="hover-shadow cursor">
+                <div class="overlay-home-page">
+                    <div class="text">Zara</div>
+                </div>
+            </div>
+
+            <div id="myModal4" class="modal">
+                <span class="close" onclick="closeModal('myModal4')">&times;</span>
+                <div class="modal-content">
+                    <div class="mySlides zara-dog">
+                        <div class="numbertext">1/4</div>
+                        <img alt="loading..." src=/images/zara.jpeg style="width:100%">
+                    </div>
+
+                    <div class="mySlides zara-dog">
+                        <div class="numbertext">2/4</div>
+                        <img alt="loading..." src=/images/zara2.png style="width:100%">
+                    </div>
+
+                    <div class="mySlides zara-dog">
+                        <div class="numbertext">3/4</div>
+                        <img alt="loading..." src=/images/zara3.jpeg style="width:100%">
+                    </div>
+
+                    <div class="mySlides zara-dog">
+                        <div class="numbertext">4/4</div>
+                        <img alt="loading..." src=/images/zara4.jpeg style="width:100%">
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1, 4)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 4)">&#10095;</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

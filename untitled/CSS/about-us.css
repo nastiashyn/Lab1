@@ -1,0 +1,55 @@
+.about_us_text {
+    box-sizing: border-box;
+    font-family: Courier, monospace;
+    font-size: large;
+}
+
+.section0 {
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+}
+
+.section1 {
+    margin-left: 200px;
+    margin-right: 100px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.section2 {
+    margin-left: 0;
+    margin-right: 200px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.section3 {
+    margin-left: 200px;
+    margin-right: 100px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.for_image1 {
+    width: 450px;
+    margin-right: 300px;
+}
+
+.for_image2 {
+    width: 450px;
+    margin-left: 300px;
+}
+
+.bg-for-text {
+    box-sizing: border-box;
+    font-family: Courier, monospace;
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+}
